@@ -61,11 +61,10 @@ The Developer wants to:
 7. Navigate to an add posts page to upload a new post to the database. 
 
 
-#### The Five Planes
+#### Planning the project 
 
-The five developent planes allow create a structure for the planning through create stages of a project. 
+In order to plan a course of action the users needs must be considered alongside how those needs will be met. 
 
-<strong>1. <u>Strategy</u></strong>
 
 **Why build the project?**
 To create a space where people who share the same interests can: 
@@ -87,7 +86,6 @@ Users will likely want to:
 - Save posts 
 
 
-<strong>2. <u>Scope</u></strong>
 
 **How will we address user needs?**
 
@@ -130,11 +128,32 @@ Each users need will have a corresponding page, navigation/and or link to the da
   - Favourites page to keep posts user favourited 
   - Favourites button easily accessed in grid and standalone posts 
 
-<strong>3. <u>Structure</u></strong>
+<strong>Design</strong>
 
-<strong>4. <u>Skeleton</u></strong>
+**Colours**
 
-<strong>5. <u>Surface</u></strong>
+The colours for this website were chosen for their bright summery feel. As the design was clean and minimal, bright but well matched colours would prevent it from appearing dull or too 'serious' as it is a creative platform. 
+
+![](static/images/readme/Claws_colours.png)
+
+The chosen colours were:
+
+- Flame (#E55019) - 
+- Olive Green (#B4AE55) -For buttons
+- Light Cyan (#CDF2FB) - Was for backgrounds but used for the navbar
+- Tickle Me Pink (#FF7DA1) - For text and outline
+- Cadimum Orange (#F38f38) - For buttons 
+
+**Fonts**
+
+The fonts were used for this project:
+
+- [Roboto](https://fonts.google.com/specimen/Roboto) - Non title or large text as it is clean and easy to read 
+
+- [Roboto](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+con) Condensed - For title and large texts as it stands out but still has a nod to Roboto
+
+- [Lobster](https://fonts.google.com/specimen/Lobster?query=lob) - For the Claws logo. Something a bit more fluid to contrast with the other text. 
+
 
 <strong>Database schema</strong>
 
