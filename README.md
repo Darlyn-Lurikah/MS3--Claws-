@@ -90,7 +90,7 @@ Users will likely want to:
 - Save posts 
 
 
-<strong>1. <u>Scope</u></strong>
+<strong>2. <u>Scope</u></strong>
 
 **How will we address user needs?**
 
@@ -132,3 +132,10 @@ Each users need will have a corresponding page, navigation/and or link to the da
 - Save posts (future functionality)
   - Favourites page to keep posts user favourited 
   - Favourites button easily accessed in grid and standalone posts 
+
+<strong>3. <u>Structure</u></strong>
+
+<strong>4. <u>Skeleton</u></strong>
+
+<strong>5. <u>Surface</u></strong>
+
