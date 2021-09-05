@@ -53,9 +53,9 @@
     </div>
   </div>
   {% else %} 
-  <div class="col s12 center-align">
-    <p>Sorry, no posts found!</p>
-    <a href="{{ url_for('get_posts') }}" class="waves-effect waves-light btn">Back to explore page</a>
+  <div class="col text-center card-top-space">
+    <h2 class="page-titles">Sorry, no posts found!</h2>
+    <a href="{{ url_for('get_posts') }}" class="green-btn btn">Back to explore page</a>
   </div>
   {% endif %}
 
