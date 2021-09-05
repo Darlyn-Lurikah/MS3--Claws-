@@ -41,6 +41,26 @@ nav .brand-logo {
 }
 
 
+.intro-greeting {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #3E3F39;
+}
+
+.search-bar-pink {
+    border-color: #FF7DA1;
+    border: solid 3px #FF7DA1;
+}
+
+.search-icon {
+    color: #FF7DA1;
+}
+
+.search-icon-margin {
+    margin-bottom: 0.5rem;
+}
+
+
 
 /* ------BUTTON STYLING------ */
 

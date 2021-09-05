@@ -3,14 +3,20 @@
 
 <!-- Keeping block element name the same so info goes to the same block -->
 {% block content %}
+  <div class="container">
+    <div class="row text-center card-btn-space">
+      <h4 class="page-titles">Welcome to Claws!</h4><br>
+      <p class="intro-greeting">A site for nail art loveers! Have a look, there's something for everyone!</p>      
+    </div>
+  </div>
 
   <!-- Search bar -->
   <div class="container">
     <div class="row my-3">
       <form action="{{ url_for('search') }}" method="POST" class="col-12">
-        <i class="fas fa-search prefix text-darken-4"></i>
-        <label for="query">Search for posts</label>
-        <input class="form-control rounded-pill" type="text" name="query" id="query" minlength="3"
+        <i class="fas fa-search search-icon search-icon-margin"></i>
+        <label class="search-icon-margin" for="query">Search for posts</label>
+        <input class="form-control rounded-pill search-bar-pink" type="text" name="query" id="query" minlength="3"
           placeholder="" aria-label="default input example" required>
         <div class="row my-3 mx-auto">
           <!-- Button to reset search bar -->
