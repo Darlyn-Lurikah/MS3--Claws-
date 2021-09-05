@@ -214,3 +214,9 @@ This site allows users to upload, edit and delete posts. Users can customise the
 
 - Password rescue:
    - Email password rescue so users can reset their password if they forget  
+
+
+### Issues and bugs
+
+**Masonary layout**
+I used a css masonry layout that is supported by Boostrap 5 with the help of the Masonry plugin. Occasionally on load, the cards will overlap. A quick refresh solves it, but it is worth noting. 
