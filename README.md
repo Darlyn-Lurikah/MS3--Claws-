@@ -1,6 +1,6 @@
 <p><strong>Claws</strong> is a web application for everyone nail art lovers, from the very beginners looking for tips, to experienced tech wanting inspiration for their next set.</p>
 
-![](static/images/readme/claws_multiscreen.png)
+![](static/readme-files/claws_multiscreen.png)
 
 <p>Having been borderline obessed with nails art for probably entirely too long, and with Covid starting a boom in self taught nail techs and hobbyists, the Claws applciation is an answer to what myself and many others wanted. A place soley for nail art that doesn't require digging through unwanted posts</p>
 
@@ -8,6 +8,35 @@
 
 [View Claws live here](https://claws-website.herokuapp.com/)
 <hr>
+
+### Table of contents
+1. [UX](#UX)
+     1. [Project Aims](#Project-Aims)
+     2. [User Stories](#User-Stories)
+     3. [Planning the project](#Planning-The-Project)
+2. [Design](#Design)
+     1. [Colours](#Colours)
+     2. [Fonts](#Fonts)
+     3. [Wireframe](#Wireframe)
+3. [Database Schema](#Database-Schema)
+     1. [Features](#Design-Features) 
+     2. [Existing Features](#Existing-Features)
+     3. [Future Features](#Future-Features)
+4. [Issues and Bugs](#Issues-and-Bugs)
+5. [Technologies Used](#Technologies-Used)
+     1. [Languages](#Languages)
+     2. [Tools](#Tools)
+     3. [Libraries](#Libraries)
+     4. [Database Management](#Database-Management)
+6. [Testing](#Testing) ☞ **[Testing.md](TESTING.md)**
+7. [Deployment](#Deployment)
+     1. [1. Database Creation](#1-Database-Creation)
+     2. [2. Local Copy Creation](#2-Local-Copy-Creation)
+     3. [3. Heroku App Creation](#3-Heroku-App-Creation)
+8. [Credits](#Credits)
+9. [Acknowledgements](#Acknowledgements)
+10. [Technical Support](#Technical-Support)
+*** 
 
 ## UX 
 ### Project Aims
@@ -128,13 +157,13 @@ Each users need will have a corresponding page, navigation/and or link to the da
   - Favourites page to keep posts user favourited 
   - Favourites button easily accessed in grid and standalone posts 
 
-<strong>Design</strong>
+## Design
 
 **Colours**
 
 The colours for this website were chosen for their bright summery feel. As the design was clean and minimal, bright but well matched colours would prevent it from appearing dull or too 'serious' as it is a creative platform. 
 
-![](static/images/readme/Claws_colours.png)
+![](static/readme/Claws_colours.png)
 
 The chosen colours were:
 
@@ -152,10 +181,34 @@ The fonts were used for this project:
 
 - [Roboto](https://fonts.google.com/specimen/Roboto+Condensed?query=roboto+con) Condensed - For title and large texts as it stands out but still has a nod to Roboto
 
-- [Lobster](https://fonts.google.com/specimen/Lobster?query=lob) - For the Claws logo. Something a bit more fluid to contrast with the other text. 
+- [Lobster](https://fonts.google.com/specimen/Lobster?query=lob) - For the Claws logo. Something a bit more fluid to contrast with the other text.
 
 
-<strong>Database schema</strong>
+**Wireframe**
+
+Some aspects of the design have changed from the wireframe due to styling and time constraints. These are: 
+
+- Home page:
+  - No longer exists. It seemed an unneccesary step between the user and the posts 
+
+- Explore page: 
+  - Became the home page 
+
+- Individual posts page: 
+  - Styling paired back due to time constraints 
+
+- Login and register page: 
+  - Styling paired back due to design constraints with responsiveness
+
+ 
+![Inital wireframe can be found here](static/readme-files/Claws_colours.png)
+
+
+
+## Database schema
+
+![]((static/images/readme/claws_db_schema.png))
+
 
 **Collections**
 - Posts
@@ -232,7 +285,7 @@ This site allows users to upload, edit and delete posts. Users can customise the
    - Email password rescue so users can reset their password if they forget  
 
 
-### Issues and bugs
+## Issues and bugs
 
 **Masonary layout**
 I used a css masonry layout that is supported by Boostrap 5 with the help of the Masonry plugin. Occasionally on load, the cards will overlap. A quick refresh solves it, but it is worth noting. 
@@ -263,7 +316,6 @@ I used a css masonry layout that is supported by Boostrap 5 with the help of the
      - Font Awesome was used for website icons
 
 
-
 ### Libraries
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
      - Bootstrap used for ease of responsive design
@@ -281,6 +333,8 @@ I used a css masonry layout that is supported by Boostrap 5 with the help of the
      - Jinja templating language used display in and pass backend data to html.
 - [Werkzeug](https://werkzeug.palletsprojects.com/en/2.0.x/ "Link to Werkzeug information")
      - Werkzeug was used for password hashing and authentication.
+- [Cloudinary](https://cloudinary.com/ "Link to cloudinary information")
+     - Used for image uploading
 
 ### Database Management
 - [MongoDB](https://www.mongodb.com/ "Link to MongoDB site")
@@ -443,7 +497,6 @@ Copied and edited edited code is refeenced within the code, but these site were 
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 - [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
-- [JSfiddle](https://jsfiddle.net/ "Link to JSfiddle page")
 
 [Back to top ⇧](#table-of-contents)
 
