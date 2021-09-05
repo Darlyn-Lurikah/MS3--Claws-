@@ -76,10 +76,59 @@ To create a space where people who share the same interests can:
     - Post nail art or tips.
     - Not have to be registered to view post making the site more inclusive.
 
-**What are the user needs and how to address them?**
-To easily search for nail art posts. Addressed with:
-    - An easy to access main page with search functionality 
-    - Log in free searching 
+**What are the user needs?**
+Users will likely want to: 
+- To browse 
+- To create own posts 
+- Edit own posts 
+- Delete own posts
+- Log In 
+- Log Out
+- Customise their profile 
+- Delete thier profile 
+- View posts 
+- Save posts 
 
-To sign up quickly. Addressed with:
-    - Easy to access register page with a simple sign up (username and password)
+
+<strong>1. <u>Scope</u></strong>
+
+**How will we address user needs?**
+
+Each users need will have a corresponding page, navigation/and or link to the database. 
+
+- To browse
+  - Home page with search bar 
+  - Home page doesn't need user to be registered 
+
+- To create own posts 
+  - Register page to keep all posts in account 
+  - Add posts page 
+
+- Edit own posts 
+  - See user posts page
+  - Edit posts page 
+
+- Delete own posts
+  - Delete posts page via edit posts so functionalities are easy to find
+
+- Log In 
+  - Log In page 
+
+- Log Out
+  - Log Out page 
+
+- Customise their profile
+  - Edit profile page 
+  - Profile page to display changes  
+
+- Delete their profile 
+    Delete profile page via edit profile so functiionalities are easy to find
+
+- View posts
+  - Home page with all posts 
+  - User profile with all user posts 
+  - Post dashboard to view posts in a bigger format
+   
+- Save posts (future functionality)
+  - Favourites page to keep posts user favourited 
+  - Favourites button easily accessed in grid and standalone posts 
