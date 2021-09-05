@@ -24,7 +24,7 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 
-# ------- Display all users posts -------
+# ------- Display all users posts on home page -------
 
 @app.route("/")
 @app.route("/get_posts")
@@ -118,7 +118,7 @@ def logout():
 
 
 # ------- Profile page with all current user posts ---------------
-
+# Code inspired by Sean Young https://github.com/seanyoung247/Plum#Database 
 @app.route("/profile/<username>", methods=["GET", "POST"])
 def profile(username):
     """
@@ -238,17 +238,6 @@ def add_post():
         "/add_post.html", user=user, title="title", posts=posts)
 
 
-# ------- Show each post on own page -------
-
-@app.route("/posts.html/<post_id>")
-def posts(post_id):
-
-    post = mongo.db.posts.find_one(
-        {"_id": ObjectId(post_id)})
-
-    return render_template("/posts.html", post=post)
-
-
 # ------- Edit post -------
 
 @app.route("/edit_post.html/<post_id>", methods=["GET", "POST"])
@@ -274,6 +263,17 @@ def edit_post(post_id):
         {"_id": ObjectId(post_id)})
 
     return render_template("/edit_post.html", post=post)
+
+
+# ------- Show each post on own page -------
+
+@app.route("/posts.html/<post_id>")
+def posts(post_id):
+
+    post = mongo.db.posts.find_one(
+        {"_id": ObjectId(post_id)})
+
+    return render_template("/posts.html", post=post)
 
 
 # ------- Delete post -------

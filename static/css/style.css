@@ -43,8 +43,9 @@ nav .brand-logo {
 
 .intro-greeting {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    color: #3E3F39;
+    font-weight: 600;
+    color: #FF7DA1;
+    font-size: 15px;
 }
 
 .search-bar-pink {
