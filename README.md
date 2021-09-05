@@ -160,21 +160,57 @@ This site allows users to upload, edit and delete posts. Users can customise the
 
 ## Existing features 
 
-- Search: Users can make non case sensitive search based on the title of the post in 
-- Log In/Out: Logs registered users in and out of their sessions returning them to the privileges of unregistered users 
-- Register: Creates new user accout and allow them access to registered user functionality 
-- Delete proflie: Deletes user profile and all user posts attached to user
-- Create new posts: User can create a new post by uploading an image then addinga title and caption 
-- Edit existing post: Users can edit their existing posts by changing the title, caption or image or all three
-- Delete existing post: Users can delete their posts permanently from their account subesquently the home page via the 'Edit Profile page' 
-- Upload profile picture: Users can customise their profile by uploading an image and writing a bio
-- Edit profile: Users can edit their profile page by uploading a new photo and/ or changing their bio
-- Feedback: Flash messages indicate to user the folowing functionalities are completed or need to be: 
-    - Wrong username/password
-    - User already exists 
-    - Logged in 
-    - Logged out 
-    - Registered 
-    - Post added/edited/deleted
-    - Profile edited/deleted
+- Search: 
+   - Users can make non case sensitive search based on the title of the post in 
 
+- Log In/Out: 
+   - Logs registered users in and out of their sessions returning them to the privileges of unregistered users
+
+- Register: 
+   - Creates new user accout and allow them access to registered user functionality 
+
+- Delete proflie: 
+   - Deletes user profile and all user posts attached to user
+
+- Create new posts: 
+   - User can create a new post by uploading an image then addinga title and caption 
+
+- Edit existing post: 
+   - Users can edit their existing posts by changing the title, caption or image or all three
+
+- Delete existing post:
+   - Users can delete their posts permanently from their account subesquently the home page 
+
+- Upload profile picture: 
+   - Users can customise their profile by uploading an image and writing a bio
+
+- Edit profile: 
+   - Users can edit their profile page by uploading a new photo and/ or changing their bio
+
+- Feedback: 
+   - Flash messages indicate to user the folowing functionalities are completed or need to be: 
+     - Wrong username/password
+     - User already exists 
+     - Logged in 
+     - Logged out 
+     - Registered 
+     - Post added/edited/deleted
+     - Profile edited/deleted
+
+
+## Future features
+
+- Favourites:
+   - So users can save posts the like when so they don't lose them
+
+- Commenting:
+   - To make for a mor einteractive site. Users can give other users feedback, edit and delte their own comments
+
+- Chats:
+   - Users can keep in contact
+
+- Password change:
+   - So users can change their passwords in their accounts for an extra layer of security 
+
+- Password rescue:
+   - Email password rescue so users can reset their password if they forget  
