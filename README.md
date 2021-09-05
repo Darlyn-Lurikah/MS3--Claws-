@@ -62,3 +62,24 @@ The Developer wants to:
 
 1. View all uploaded post's dashboard to edit as needed
 2. View all recipe dashboard to delete recipe as needed.
+
+
+### The Five Planes
+
+The five developent planes allow create a structure for the planning through create stages of a project. 
+
+<strong>1. <u>Strategy</u></strong>
+
+**Why build the project?**
+To create a space where people who share the same interests can: 
+    - Search for nail art. 
+    - Post nail art or tips.
+    - Not have to be registered to view post making the site more inclusive.
+
+**What are the user needs and how to address them?**
+To easily search for nail art posts. Addressed with:
+    - An easy to access main page with search functionality 
+    - Log in free searching 
+
+To sign up quickly. Addressed with:
+    - Easy to access register page with a simple sign up (username and password)
