@@ -2,17 +2,19 @@
 
 {% block header %}
 
-    <h3 class="text-center page-titles title-margin">Sorry! This page doesn't exists!</h3>
+    <h3 class="text-center page-titles title-margin">Server Error!</h3>
 
 {% endblock %}
 
 
 {% block content %}
 
-    <div class="container">
+    <h1 class="text-center page-titles title-margin">500</h1>
+
+    <div class="container card-top-space">
         <div class="row">
             <div class="col col-md-8 col-lg-6 mx-auto">
-                <img class="img-fluid" src="../static/images/error_page_img.jpg" alt="500 error page image">
+                <img class="img-fluid" src="../static/images/500_error_img.jpg" alt="500 error page image">
             </div>
         </div>
     </div>
@@ -20,5 +22,6 @@
     <div class="row">
         <a href="{{ url_for('get_posts') }}"  class="btn green-btn" aria-label="Back to home page">Back to the home page</a>
     </div>
+    
 
 {% endblock %}
