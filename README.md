@@ -38,3 +38,27 @@ The Developer wants to:
 
 - Create a simple and easy to naviage application where the people who enjoy nail art can showcase their work or browse what others have done.
 - Demonstrate their newly learned skills utilising in a variety of languages and libraries as well as a document database system.
+
+
+### User Stories
+
+**As a Non-Registered User, I want to:**
+
+1. Intuitively find posts within the database.
+2. View posts registed users created without needing an account
+3. Navigate to Register page to start an account.
+
+**As a Registered User, I want to:**
+
+1. Log into my account to gain access to the full functionality of the site.
+2. Navigate to my user profile to edit my profile information.
+3. View my own post's dashboard to edit if I need to.
+4. View my own post's dashboard to delete it if I no longer want it.
+5. Navigate to my profile delete my account.
+6. Navigate to my profile page to view my uploaded posts.
+7. Navigate to an add posts page to upload a new post to the database. 
+
+**As an Administrative Account holder, I want to:**
+
+1. View all uploaded post's dashboard to edit as needed
+2. View all recipe dashboard to delete recipe as needed.
