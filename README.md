@@ -19,7 +19,7 @@
      2. [Fonts](#Fonts)
      3. [Wireframe](#Wireframe)
 3. [Database Schema](#Database-Schema)
-     1. [Features](#Design-Features) 
+     1. [Features](#Features) 
      2. [Existing Features](#Existing-Features)
      3. [Future Features](#Future-Features)
 4. [Issues and Bugs](#Issues-and-Bugs)
@@ -45,7 +45,7 @@ The main aim of **Claws** is to provide a web-based application, with a minimal,
 For this project a full-stack website was required that allowed users to manage a common dataset using **HTML5**, **CSS3**, **JavaScript**, **Python**, **Flask** and **MongoDB**.
 
 
-## User Goals
+### User Goals
 The user is looking for:
 - A database they can search to find nail art posts.
 - A user-friendly data management system with **CRUD** conventions to:
@@ -159,7 +159,7 @@ Each users need will have a corresponding page, navigation/and or link to the da
 
 ## Design
 
-**Colours**
+### Colours
 
 The colours for this website were chosen for their bright summery feel. As the design was clean and minimal, bright but well matched colours would prevent it from appearing dull or too 'serious' as it is a creative platform. 
 
@@ -173,7 +173,7 @@ The chosen colours were:
 - Tickle Me Pink (#FF7DA1) - For text and outline
 - Cadimum Orange (#F38f38) - For buttons 
 
-**Fonts**
+### Fonts
 
 The fonts were used for this project:
 
@@ -184,7 +184,7 @@ The fonts were used for this project:
 - [Lobster](https://fonts.google.com/specimen/Lobster?query=lob) - For the Claws logo. Something a bit more fluid to contrast with the other text.
 
 
-**Wireframe**
+### Wireframe
 
 Some aspects of the design have changed from the wireframe due to styling and time constraints. These are: 
 
@@ -201,7 +201,7 @@ Some aspects of the design have changed from the wireframe due to styling and ti
   - Styling paired back due to design constraints with responsiveness
 
  
-![Inital wireframe can be found here](static/readme-files/Claws_colours.png)
+Inital wireframe can be found [here](static/readme-files/Claws_colours.png)
 
 
 
@@ -210,7 +210,7 @@ Some aspects of the design have changed from the wireframe due to styling and ti
 ![]((static/images/readme/claws_db_schema.png))
 
 
-**Collections**
+### Collections
 - Posts
   - ID - For targeting the post in queries 
   - Image - For post subject/imterest  
