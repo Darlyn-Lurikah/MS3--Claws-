@@ -139,3 +139,42 @@ Each users need will have a corresponding page, navigation/and or link to the da
 
 <strong>5. <u>Surface</u></strong>
 
+<strong>Database schema</strong>
+
+**Collections**
+- Posts
+  - ID - For targeting the post in queries 
+  - Image - For post subject/imterest  
+  - Post_caption - Users can give information with post image
+  - Poster - Links post with the creator (user)
+
+- Users 
+  - ID - Allow develpoer and user to modify the database regarding the user holding a specific ID
+  - Username - To find the user by 
+  - Password - For security. Passord is hashed by Werkzeug 
+  - Profile_img - Users can upload and image of their choice
+  - Profile_bio - Users can share info about themselves
+
+### Features 
+This site allows users to upload, edit and delete posts. Users can customise their account with a profile picture and bio, both of which they can edit. In their profile page users can also delete their account along with all their posts. 
+
+## Existing features 
+
+- Search: Users can make non case sensitive search based on the title of the post in 
+- Log In/Out: Logs registered users in and out of their sessions returning them to the privileges of unregistered users 
+- Register: Creates new user accout and allow them access to registered user functionality 
+- Delete proflie: Deletes user profile and all user posts attached to user
+- Create new posts: User can create a new post by uploading an image then addinga title and caption 
+- Edit existing post: Users can edit their existing posts by changing the title, caption or image or all three
+- Delete existing post: Users can delete their posts permanently from their account subesquently the home page via the 'Edit Profile page' 
+- Upload profile picture: Users can customise their profile by uploading an image and writing a bio
+- Edit profile: Users can edit their profile page by uploading a new photo and/ or changing their bio
+- Feedback: Flash messages indicate to user the folowing functionalities are completed or need to be: 
+    - Wrong username/password
+    - User already exists 
+    - Logged in 
+    - Logged out 
+    - Registered 
+    - Post added/edited/deleted
+    - Profile edited/deleted
+
